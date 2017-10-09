@@ -34,7 +34,6 @@ print(test)
 # sorts it temporarily
 print(sorted(test))
 print(test)
-#
 test.reverse()
 print(test)
 test.reverse()
