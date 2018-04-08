@@ -1,4 +1,4 @@
-Guests = ['Roger Water','Elenor Rigby', 'Anthony Feathers', 'Peter Highwand']
+Guests = ['Roger Water', 'Elenor Rigby', 'Anthony Feathers', 'Peter Highwand']
 
 print("This is a Dinner Invitation for " + Guests[0] + ".")
 print("This is a Dinner Invitation for " + Guests[1] + ".")
