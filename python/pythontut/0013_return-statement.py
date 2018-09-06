@@ -3,9 +3,8 @@ def cube(num):
 
 # You can't put any more code after the return statement
 
+
 print(cube(3))
-
-#or
-
+# or
 result = cube(4)
 print(result)

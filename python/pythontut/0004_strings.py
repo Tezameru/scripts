@@ -1,5 +1,4 @@
 phrase = "Giraffe Academies"
-phrase = "Giraffe Academies"
 print(phrase + " is cool.")
 print("Giraffe\nAcademy")
 print("Giraffe\"Academy")
@@ -14,9 +13,7 @@ print(len(phrase))
 print(phrase[0])
 print(phrase[4])
 print(phrase.index("G"))
-print(phrase.replace("Giraffe","Elefant"))
+print(phrase.replace("Giraffe", "Elefant"))
 print(phrase)
 print(phrase.lower())
 print(phrase.title())
-
-exit
