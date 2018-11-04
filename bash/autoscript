@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Autoscript from budlabs - created after instructions from his
+# Youtube Videoseries ( https://www.youtube.com/watch?v=QGUmMtEnIkI ) 
+# Thanks dude!
+
+SCRIPT_FOLDER="$HOME/git/scripts"
+SCRIPT_FILE="$SCRIPT_FOLDER/$1"
+
+if [[ -f $SCRIPT_FILE ]]; then
+	echo "file already exists. Aborting."
+else
+	echo '#!/bin/bash' > $SCRIPT_FILE 
+	chmod +x $SCRIPT_FILE
+	echo $1 "has been created in "$SCRIPT_FILE
+fi
